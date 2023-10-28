@@ -1,0 +1,59 @@
+.accordian {
+  margin-top: 1rem;
+  line-height: 1.3rem;
+  font-size: 1vw;
+  overflow: hidden;
+}
+.accordian-title {
+  color: rgb(7, 1, 1);
+  /* background-color: wheat; */
+  padding: 10px;
+  /* font-size: 0.6rem; */
+}
+
+.accordian-content {
+  /* background-color: gray; */
+  /* color: white; */
+  padding: 10px;
+  display: none;
+}
+
+#check {
+  color: gray;
+}
+.accordian-item.active .accordian-content {
+  display: block;
+}
+.accordian-item {
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+.accordian-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cta-btn {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1rem;
+}
+.cta-btn button {
+  border: none;
+  outline: none;
+  color: red;
+  background-color: white;
+}
+.product-detail h2 {
+  /* font-size: 0.9rem; */
+  margin-bottom: 0.3rem;
+}
+
+.past-delivery-title {
+  margin: 1.5rem 0;
+  font-size: 1.5vw;
+}
+.past-delivery {
+  font-size: 1vw;
+}

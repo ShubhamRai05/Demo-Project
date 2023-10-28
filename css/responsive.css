@@ -1,0 +1,82 @@
+@media only screen and (max-width: 768px) {
+  .section-one {
+    display: none;
+  }
+  .mobile-container {
+    width: 4rem;
+    /* background-color: rgb(24, 23, 23); */
+    height: 1rem;
+    gap: 1rem;
+    overflow: hidden;
+    gap: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+
+  .mobile-container .one {
+    margin: 1rem;
+    background-color: yellow;
+    /* color: yellow; */
+    width: 3rem;
+    height: 3rem;
+    margin-left: 1rem;
+    gap: 1rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .mobile-container {
+    display: block; /* Adjust the display property as needed */
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  .mobile-container {
+    display: none; /* Adjust the display property as needed */
+    .timeline {
+      position: sticky;
+      width: 2px;
+      background: #07cc21;
+      left: 42%;
+      transform: translateX(-50%);
+      /* top: 18rem; */
+      bottom: 2rem;
+      z-index: 999; /* Ensures the timeline is on top of other elements */
+      overflow: visible;
+    }
+    .process-header {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
+
+@media only screen and (max-width: 1180px) {
+  .timeline {
+    position: sticky;
+    width: 2px;
+    background: #07cc21;
+    left: 38%;
+    transform: translateX(-50%);
+    /* top: 18rem; */
+    bottom: 2rem;
+    z-index: 999; /* Ensures the timeline is on top of other elements */
+    overflow: visible;
+  }
+}
+@media only screen and (max-width: 845px) {
+  .timeline {
+    position: sticky;
+    width: 2px;
+    background: #07cc21;
+    left: 39%;
+    transform: translateX(-50%);
+    /* top: 18rem; */
+    bottom: 2rem;
+    z-index: 999; /* Ensures the timeline is on top of other elements */
+    overflow: visible;
+  }
+}

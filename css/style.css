@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.container {
+  max-width: 95vw;
+  padding: 2rem 1rem;
+  margin: 0 auto;
+  height: 100vh;
+}
+.sections {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  gap: 2rem;
+}
+.section-one {
+  height: 100%;
+  width: 30%;
+  /* background-color: gray; */
+}
+
+.section-one .search-box {
+  /* height: 100%; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+.section-one .search-box input[type='search']:focus {
+  outline: none; /* Remove the outline when the input is focused */
+  border: none; /* Remove the border when the input is focused */
+}
+
+.section-one .search-box input[type='search'] {
+  width: 100%;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #000;
+  padding: 0.5rem 0.5rem 0.5rem 2rem;
+  background: url('../assets/search\ icon.svg') no-repeat 1px center;
+  background-size: 1rem;
+}
+
+.tracking-info {
+  height: 60%;
+  width: 100%;
+  /* border: 1px solid #121212; */
+  margin-top: 1rem;
+}
+.tracking-title {
+  margin: 1rem 2rem;
+}
+/* .tracking-id {
+} */
+.tracking-border {
+  border: 1px solid #a59c9ca2; /*current*/
+  padding: 1rem;
+  border-radius: 0.4rem;
+}
+
+.tracking-past-delivery {
+  height: 50%;
+  width: 100%;
+}
+
+.tracking-past-delivery .past-tracking-id {
+  width: 100%;
+  height: 80%;
+  /* border: 1px solid #343434; */
+}
+
+.tracking-id h2 {
+  font-weight: bold;
+}
+
+.tracking-past-delivery h2 {
+  margin: 1rem 0;
+}
+.product {
+  text-align: center;
+  line-height: 1.5rem;
+}
+.cta-button {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1rem;
+}
+.cta-button button {
+  border: none;
+  outline: none;
+  text-decoration: none;
+  background-color: white;
+  color: red;
+}
+.tracking-ids {
+  height: 25vh;
+  /* background-color: red; */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.tracking-ids .track-id {
+  border: 1px solid #343434;
+  height: 30%;
+  border-radius: 0.4rem;
+  padding: 8px 4px 5px 10px;
+
+  /* margin: 0 1rem; */
+}
+.track-id h2 {
+  color: #8f8c8c;
+  font-weight: 400;
+}
+.past-tracking-id {
+  /* padding: 8px 4px 5px 10px; */
+  /* border: 1px solid black; */
+  height: 100%;
+}
+.past-tracking-id .track-id {
+  border: 1px solid #343434;
+  height: 22%;
+  border-radius: 0.4rem;
+  padding: 0px 4px 5px 10px;
+}
+/* ===========tracking description ================ */
+.tracking-description {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: flex-end; */
+  margin: 0 1rem;
+  flex-wrap: wrap;
+  line-height: 1.2rem;
+  text-wrap: nowrap;
+}
+/* utility classes */
+.flex {
+  display: flex;
+  justify-content: center;
+}
+.text-lg {
+  font-size: 1rem;
+  font-weight: 400;
+}
+.text-sm {
+  font-weight: lighter;
+  font-size: 0.8rem;
+}
+.btn {
+  color: white;
+  background-color: rgb(112, 180, 10);
+  padding: 0.3rem;
+  border-radius: 50px;
+  width: 6rem;
+  border: none;
+}
+.text-light {
+  font-weight: 300;
+}

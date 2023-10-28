@@ -1,0 +1,72 @@
+.timeline {
+  position: sticky;
+  width: 2px;
+  background: #07cc21;
+  left: 35%;
+  transform: translateX(-50%);
+  /* top: 18rem; */
+  bottom: 2rem;
+  z-index: 999; /* Ensures the timeline is on top of other elements */
+  overflow: visible;
+}
+
+.timeline-container {
+  border: 1px solid black;
+  width: 100%;
+}
+.event {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+}
+.event .content {
+  position: relative;
+  bottom: 3.4rem;
+  left: 1rem;
+  font-size: 1vw;
+}
+
+.circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #11df30;
+  color: #11df30;
+  text-align: center;
+  line-height: 20px;
+  position: absolute;
+  top: -68px;
+  left: -9px;
+}
+
+.content {
+  text-align: center;
+  margin-top: 30px;
+  text-wrap: nowrap;
+}
+.content .left {
+  position: relative;
+  left: -94px;
+  top: -54px;
+}
+.content .right {
+  position: relative;
+  left: 3px;
+  top: -1.3rem;
+  width: 8rem;
+  /* text-wrap: wrap; */
+}
+.event:not(:last-of-type) {
+  margin-bottom: 100px;
+}
+.delivery-contact {
+  margin-top: 1rem;
+  display: flex;
+  gap: 2rem;
+  line-height: 1.4rem;
+}
+
+.delivery-contact .delivery-img img {
+  width: 40px;
+  height: 40px;
+}
